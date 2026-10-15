@@ -53,3 +53,7 @@ __pycache__/
 
 ### Signing keys ###
 /signer/keys/
+
+### Personal card data (never commit) ###
+my-cards*
+*.cards.json

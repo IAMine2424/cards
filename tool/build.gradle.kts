@@ -75,6 +75,7 @@ kotlin {
 
 dependencies {
     implementation(project(":sdk:client"))
+    implementation(libs.zxing.core)
     testImplementation(libs.kotlin.test)
     ksp(libs.androidx.room.compiler)
 }
